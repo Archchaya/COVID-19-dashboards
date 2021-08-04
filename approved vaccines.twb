@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0511.0935                               -->
+<workbook original-version='18.1' source-build='2021.1.2 (20211.21.0511.0935)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Vaccine (Whole_details (1))' inline='true' name='federated.0i2mkmc0ujo1hm1ct2brn1npcun6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Whole_details (1)' name='excel-direct.11rdobm0wse9051atdud40lobxw7'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/User/Desktop/BI/Whole_details (1).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.11rdobm0wse9051atdud40lobxw7' name='Vaccine' table='[Vaccine$]' type='table'>
+          <columns gridOrigin='A1:B8:no:A1:B8:0' header='yes' outcome='6'>
+            <column datatype='string' name='WHO Approved vaccines' ordinal='0' />
+            <column datatype='integer' name='Vaccination countries (Count)' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.11rdobm0wse9051atdud40lobxw7' name='Vaccine' table='[Vaccine$]' type='table'>
+          <columns gridOrigin='A1:B8:no:A1:B8:0' header='yes' outcome='6'>
+            <column datatype='string' name='WHO Approved vaccines' ordinal='0' />
+            <column datatype='integer' name='Vaccination countries (Count)' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Vaccine]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B8:no:A1:B8:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WHO Approved vaccines</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WHO Approved vaccines]</local-name>
+            <parent-name>[Vaccine]</parent-name>
+            <remote-alias>WHO Approved vaccines</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Vaccine_310F83AB27874AECB1146E63A73E3847]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vaccination countries (Count)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Vaccination countries (Count)]</local-name>
+            <parent-name>[Vaccine]</parent-name>
+            <remote-alias>Vaccination countries (Count)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Vaccine_310F83AB27874AECB1146E63A73E3847]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Vaccine' datatype='table' name='[__tableau_internal_object_id__].[Vaccine_310F83AB27874AECB1146E63A73E3847]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Sri Lanka&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Vaccine' id='Vaccine_310F83AB27874AECB1146E63A73E3847'>
+            <properties context=''>
+              <relation connection='excel-direct.11rdobm0wse9051atdud40lobxw7' name='Vaccine' table='[Vaccine$]' type='table'>
+                <columns gridOrigin='A1:B8:no:A1:B8:0' header='yes' outcome='6'>
+                  <column datatype='string' name='WHO Approved vaccines' ordinal='0' />
+                  <column datatype='integer' name='Vaccination countries (Count)' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='WHO approved VAccines'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontname='Tableau Semibold' fontsize='28' underline='true'>WHO Approved Vaccines</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Vaccine (Whole_details (1))' name='federated.0i2mkmc0ujo1hm1ct2brn1npcun6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0i2mkmc0ujo1hm1ct2brn1npcun6'>
+            <column datatype='integer' name='[Vaccination countries (Count)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[WHO Approved vaccines]' role='dimension' type='nominal' />
+            <column-instance column='[WHO Approved vaccines]' derivation='None' name='[none:WHO Approved vaccines:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Vaccination countries (Count)]' derivation='Sum' name='[sum:Vaccination countries (Count):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0i2mkmc0ujo1hm1ct2brn1npcun6].[sum:Vaccination countries (Count):qk]' num-steps='5' palette='red_blue_diverging_10_0' reverse='true' symmetric='false' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0i2mkmc0ujo1hm1ct2brn1npcun6].[none:WHO Approved vaccines:nk]' />
+              <size column='[federated.0i2mkmc0ujo1hm1ct2brn1npcun6].[sum:Vaccination countries (Count):qk]' />
+              <text column='[federated.0i2mkmc0ujo1hm1ct2brn1npcun6].[none:WHO Approved vaccines:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3AC004D9-9028-42D4-B9A2-A8EB11E460C8}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='WHO approved VAccines'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0i2mkmc0ujo1hm1ct2brn1npcun6].[sum:Vaccination countries (Count):qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.0i2mkmc0ujo1hm1ct2brn1npcun6].[none:WHO Approved vaccines:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0i2mkmc0ujo1hm1ct2brn1npcun6].[none:WHO Approved vaccines:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{73875991-7F57-441A-9D1B-FC5539A65369}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='WHO approved VAccines' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAU8klEQVR4nO3daWwc533H8e8z13LJ3eWSEk9R1EFKlmQr1mVbViwrqY+4TQO4RROgLQL4
+      TYqgKAq0QIG+aIukSNE3RYsCfdMibZAiLpIaReLUlWPHjmu7iW+bOixTK4kUT5EUl+Ry792Z
+      efqCFm1ZEsVjSEqa/wcQRJC78zyU5rfzXPOM0lprhAgpY70rIMR6kgCIUJMAiFCTAIhQkwCI
+      UJMAiFCTAIhQkwCIUJMAiFCTAIhQkwCIUJMAiFCTAIhQkwCIUJMAiFCTAIhQkwCIUJMAiFCT
+      AIhQkwCIUJMAiFCTAIhQkwCIUJMAiFCTAIhQkwCIUJMAiFCTAIhQkwCIUJMAiFCTAIhQkwCI
+      UJMAiFCTAIhQkwCIUJMAiFCTAIhQkwCIUJMAiFCTAIhQkwCIUJMAiFCTAIhQkwCIUJMAiFCz
+      1rsC4s7R09PD4OAgu3btwnEcmpubmZ2dpbm5mcuXL1NfXw+AUgrf95menqa1tZV0Ok08Hqem
+      pmbN6ywBEIHZuHEjqVQKy7Lo7e3l5MmTxGIxTp8+jW3b5HI5HMfBNE3a2tp45plneOihh3Bd
+      l/37969ZAPL5PJ7nkUgkJAAiWLt27aK3txfDMGhsbGT79u2cOnUK27ZRShGNRsnn8/T19XH4
+      8GEKhQKRSASl1JrV8dKlS2QyGTKZjARABKe5uRmA3bt347ouhmFgWRbNzc2k02mSyeR888f3
+      fXK5HMlkkkwmQywWu+Z4WmvQmrm/5r72tcZHoZTCMBRKgaHUkgN09uxZjh49itJa60B+eyFW
+      wPd9ClM58ulZshMZ8lNZspczVAplvIqLV3VxKy4Xqpr/MxxqHIuIY1LjWCTqIrQ1xuloTrBp
+      Y5yWhjraNsZxLPOacsbGxnj99dc5cuQIb731lgRArA/P9ShM50j3jzPZN0Z6YIJyroj2Fz4d
+      +7XiFewFX2MoRaIuwq7ODdyzrZm7tzXT0ZTAsa8NhARArBmtNbnJWUZO9jN84iL59OySj7GY
+      AFxP+4Y4R+7p4Oi9W9jampz/vgRArLpKocxQTx/DPX3MjKZhBWfccgNwhVKwuameRw5u45GD
+      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
+      3XIhCOqeAAmAuKkvdu3gcOfW9a7GVYK6K0wCIG7KUIqv7Lqb+zs617sq84K6MV4CIBbFNAx+
+      ++7P8Vj3zlukOSTDoGKNKaV4pGsnT+7Zi3E77SW0AAmAWBKlFIc7t/L7+w5SexvdQ3AjEgCx
+      LPe0tPHHR46yJdmw3lVZEQmAWLaGaC3fuO9BvrCtG3WL9AyWSjbHvc298MILVCoVDhw4wLvv
+      vsu9995LZ2cnxg1WdJ46dYqxsTE8z6O1tXX+D0A+n+fll1/m8OHDDAwMcPLkSXbs2MHRo0ev
+      2j80lUqxfft2LMvCNk2e2LmLHRs38lzvGS5lZ9fk9/aNYAInAbjN+b7PgQMHePvtt0mlUkSj
+      UWzb5rnnnuPQoUMMDg7S2tpKKpXi4YcfJpfLUanMPRegUCiQSqVIpVJMTk6yZ88eMpkMg4OD
+      xGIxtm3bxuHDh3nttdcYHR1l9+7dDA8P4zgOvb29dHR0cODAAZRSdG9o4g8Pf543Bwd46fxZ
+      yl5QT/K9PpkIEwBMTU0xNDTEl7/8ZQ4ePIhhGDiOw759+6hUKpTLZWpqaujq6iKZTJJMJqmv
+      r+exxx5jcnKSQqFALpfjvvvuY2Jigr1793Lq1Kmryujp6SGZTDI2NsaxY8eIxWI8+uij80G6
+      wjEtHt7WxZ8+9EXu7+jECfiJjp8W1ESY0jqgp42JdTEyMsKmTZvwfZ+xsTFg7pP93LlzHDx4
+      kDNnztDd3Y3jOFy8eJH9+/fT399Pf38/+/btw3VdTNMklUpx6NAhyuUy09PTNDY2UiwWaWlp
+      YWBggOHhYfbv3897771Hd3c3LS0tTE9P09R0/WXTWmsypRK/HOjj7eFBSgE90uiK+z84yX0n
+      PlzRMVQ0KgEIk2w2SzweX/NyZ0sl3h4e5IPRYSYL+UCOuf/UGY68d2JZ77VaW6h98EFijz0q
+      ARBrx/N9hjMz9Fwa5cOJS2RKpWUfa8/Z83zxjXcW/XqzoYGaA/upO/IgkZ07UR83oaQTLNaM
+      aRhsaWhkS0Mjv75zFyOzGfqm0lyYmmRgZhrX9xd9rJsth1aRCM6Obmp27yayZzfO1q0Y0ei1
+      r5MrgFhvWmt8rRmenWEyn+dyPk+6kOdyPkexWsX1PTytqXoeru9jKkX36DiPv/kuyrIwYjGs
+      lhbstlas9nbsjk3YmzejbPumj3+SAIhbltYaz/dxtY//8deerzGUwgYiWoNpLupEvxEJgAg1
+      mQcQoSYBEKEmARChJgEQoSYBEKEmARChJgEQoSYBEKEmARChJgEQoSYBEKEmARChJgEQoSYB
+      EKEmARChJgEQoSYBEKEmARChJgEQoSYBEKEmARChJgEQoSYBEKEmARChJgEQoSYBEKEmARCh
+      JgEQoSYBEKEmARChJgEQoSYBEKEmARChJgEQoSYBEKEmARChJgEQoSYBEKEmARChJgEQoSYB
+      EKEmARChJgEQoSYBEKEmARCh9v/wpoy4SVMpmwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>

@@ -1,0 +1,492 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0511.0935                               -->
+<workbook original-version='18.1' source-build='2021.1.2 (20211.21.0511.0935)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Virus Variants (Whole_details (1))' inline='true' name='federated.0sou0rc1nq1kjc19gu1le0pgmjnz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Whole_details (1)' name='excel-direct.0wnjatn1ksnlnn1ghiyhz0gfwr6j'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/User/Desktop/BI/Whole_details (1).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0wnjatn1ksnlnn1ghiyhz0gfwr6j' name='Virus Variants' table='[&apos;Virus Variants$&apos;]' type='table'>
+          <columns gridOrigin='A1:F12:no:A1:F12:0' header='yes' outcome='2'>
+            <column datatype='string' name='WHO label' ordinal='0' />
+            <column datatype='string' name='Pango Lineage' ordinal='1' />
+            <column datatype='string' name='GISAID clade/lineage' ordinal='2' />
+            <column datatype='string' name='Next strain clade' ordinal='3' />
+            <column datatype='string' name='Earliest documented samples' ordinal='4' />
+            <column datatype='string' name='Date of designation' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0wnjatn1ksnlnn1ghiyhz0gfwr6j' name='Virus Variants' table='[&apos;Virus Variants$&apos;]' type='table'>
+          <columns gridOrigin='A1:F12:no:A1:F12:0' header='yes' outcome='2'>
+            <column datatype='string' name='WHO label' ordinal='0' />
+            <column datatype='string' name='Pango Lineage' ordinal='1' />
+            <column datatype='string' name='GISAID clade/lineage' ordinal='2' />
+            <column datatype='string' name='Next strain clade' ordinal='3' />
+            <column datatype='string' name='Earliest documented samples' ordinal='4' />
+            <column datatype='string' name='Date of designation' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Virus Variants]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F12:no:A1:F12:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WHO label</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WHO label]</local-name>
+            <parent-name>[Virus Variants]</parent-name>
+            <remote-alias>WHO label</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Virus Variants_45B611E3E4F941AAB88BCFC89A249109]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pango Lineage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Pango Lineage]</local-name>
+            <parent-name>[Virus Variants]</parent-name>
+            <remote-alias>Pango Lineage</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Virus Variants_45B611E3E4F941AAB88BCFC89A249109]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GISAID clade/lineage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GISAID clade/lineage]</local-name>
+            <parent-name>[Virus Variants]</parent-name>
+            <remote-alias>GISAID clade/lineage</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Virus Variants_45B611E3E4F941AAB88BCFC89A249109]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Next strain clade</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Next strain clade]</local-name>
+            <parent-name>[Virus Variants]</parent-name>
+            <remote-alias>Next strain clade</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Virus Variants_45B611E3E4F941AAB88BCFC89A249109]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Earliest documented samples</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Earliest documented samples]</local-name>
+            <parent-name>[Virus Variants]</parent-name>
+            <remote-alias>Earliest documented samples</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Virus Variants_45B611E3E4F941AAB88BCFC89A249109]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date of designation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Date of designation]</local-name>
+            <parent-name>[Virus Variants]</parent-name>
+            <remote-alias>Date of designation</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Virus Variants_45B611E3E4F941AAB88BCFC89A249109]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Pango Lineage]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Virus Variants' datatype='table' name='[__tableau_internal_object_id__].[Virus Variants_45B611E3E4F941AAB88BCFC89A249109]' role='measure' type='quantitative' />
+      <column-instance column='[Pango Lineage]' derivation='None' name='[none:Pango Lineage:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Pango Lineage:nk]' palette='blue_teal_10_0' type='palette'>
+            <map to='#2c5985'>
+              <bucket>&quot;P.3&quot;</bucket>
+            </map>
+            <map to='#2f6891'>
+              <bucket>&quot;P.2&quot;</bucket>
+            </map>
+            <map to='#33789d'>
+              <bucket>&quot;P.1&quot;</bucket>
+            </map>
+            <map to='#3589a9'>
+              <bucket>&quot;B.1.617.2&quot;</bucket>
+            </map>
+            <map to='#3e99b4'>
+              <bucket>&quot;B.1.617.1&quot;</bucket>
+            </map>
+            <map to='#53a9bd'>
+              <bucket>&quot;B.1.525&quot;</bucket>
+            </map>
+            <map to='#6eb8c5'>
+              <bucket>&quot;B.1.427/B.1.429&quot;</bucket>
+            </map>
+            <map to='#87c6cc'>
+              <bucket>&quot;B.1.351&quot;</bucket>
+            </map>
+            <map to='#a0d4d1'>
+              <bucket>&quot;B.1.1.7&quot;</bucket>
+            </map>
+            <map to='#bce4d8'>
+              <bucket>&quot;B-1-526&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Sri Lanka&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Virus Variants' id='Virus Variants_45B611E3E4F941AAB88BCFC89A249109'>
+            <properties context=''>
+              <relation connection='excel-direct.0wnjatn1ksnlnn1ghiyhz0gfwr6j' name='Virus Variants' table='[&apos;Virus Variants$&apos;]' type='table'>
+                <columns gridOrigin='A1:F12:no:A1:F12:0' header='yes' outcome='2'>
+                  <column datatype='string' name='WHO label' ordinal='0' />
+                  <column datatype='string' name='Pango Lineage' ordinal='1' />
+                  <column datatype='string' name='GISAID clade/lineage' ordinal='2' />
+                  <column datatype='string' name='Next strain clade' ordinal='3' />
+                  <column datatype='string' name='Earliest documented samples' ordinal='4' />
+                  <column datatype='string' name='Date of designation' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontname='Tableau Semibold' fontsize='28' underline='true'>Virus Variants</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Virus Variants (Whole_details (1))' name='federated.0sou0rc1nq1kjc19gu1le0pgmjnz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sou0rc1nq1kjc19gu1le0pgmjnz'>
+            <column datatype='string' name='[Date of designation]' role='dimension' type='nominal' />
+            <column datatype='string' name='[GISAID clade/lineage]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Next strain clade]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Pango Lineage]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Virus Variants' datatype='integer' name='[__tableau_internal_object_id__].[Virus Variants_45B611E3E4F941AAB88BCFC89A249109]' role='measure' type='quantitative' />
+            <column datatype='string' name='[WHO label]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Virus Variants' datatype='table' name='[__tableau_internal_object_id__].[Virus Variants_45B611E3E4F941AAB88BCFC89A249109]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Virus Variants_45B611E3E4F941AAB88BCFC89A249109]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Virus Variants_45B611E3E4F941AAB88BCFC89A249109:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date of designation]' derivation='None' name='[none:Date of designation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GISAID clade/lineage]' derivation='None' name='[none:GISAID clade/lineage:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Next strain clade]' derivation='None' name='[none:Next strain clade:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pango Lineage]' derivation='None' name='[none:Pango Lineage:nk]' pivot='key' type='nominal' />
+            <column-instance column='[WHO label]' derivation='None' name='[none:WHO label:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0sou0rc1nq1kjc19gu1le0pgmjnz].[__tableau_internal_object_id__].[cnt:Virus Variants_45B611E3E4F941AAB88BCFC89A249109:qk]' />
+              <color column='[federated.0sou0rc1nq1kjc19gu1le0pgmjnz].[none:Pango Lineage:nk]' />
+              <text column='[federated.0sou0rc1nq1kjc19gu1le0pgmjnz].[none:Date of designation:nk]' />
+              <text column='[federated.0sou0rc1nq1kjc19gu1le0pgmjnz].[none:Next strain clade:nk]' />
+              <text column='[federated.0sou0rc1nq1kjc19gu1le0pgmjnz].[none:WHO label:nk]' />
+              <text column='[federated.0sou0rc1nq1kjc19gu1le0pgmjnz].[none:GISAID clade/lineage:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EFE6E9B0-45E6-4557-AA09-DAA2DDD41481}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0sou0rc1nq1kjc19gu1le0pgmjnz].[none:Pango Lineage:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-height' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0sou0rc1nq1kjc19gu1le0pgmjnz].[none:Earliest documented samples:nk]</field>
+            <field>[federated.0sou0rc1nq1kjc19gu1le0pgmjnz].[none:Next strain clade:nk]</field>
+            <field>[federated.0sou0rc1nq1kjc19gu1le0pgmjnz].[none:Pango Lineage:nk]</field>
+            <field>[federated.0sou0rc1nq1kjc19gu1le0pgmjnz].[none:WHO label:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A88BBD2B-597A-425B-87EA-C1FC6D1AFC35}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAgAElEQVR4nO3dyXMc2YHf8W/uWfuCwr6DBAiuTfaqltuza5aImXA4HOF/wBf/R7745ghH
+      2D5M2GNrFLY00kjNEbu5NgEQJPYdqH2vzKzKxQewKbYItrolNoBmvs+FVckq1HuJ/NVb8iVS
+      CoIgQBBCSj7rAgjCWRIBEEJNfflJx+1S71pnVZbQaVoBNbt71sUIBVNW2C03X9n+lQDUHIvl
+      2tGpFSrsVo88lku1sy5GKAyoBv/z/vor20UXSAg19aSNQRDw5eSQLMv4vo8kSUiS9OLxl15+
+      /PL7fd9HluUXP+fL98qy/LXvDaMgCAh8H0mWkSSJwPfhy30TBEjyq99Tx78jH0mSX7wOSfrq
+      NsQ+/l1ODEDX6bLw2V2atQY//Ks/47/9p//Mv/+P/wEzEuHH//W/8/GP/oytZ6v4vs/k7AV0
+      08SMRLDabdK5PvK7++ysbaCbJtViEUmSuHTzOrtrmxgRE8eyicRjXP/wvdOu77mUX1mmU60w
+      MDtPvC/Hxp1PSQwMIUkS5a11Jt79EN91MZMpnE6LaDqL3ahTWH2K73n4nofrOIxcvUFlZxPP
+      dYn15Wjmj7j4yZ+cdfXOlVREZygZe/HFfGIAdEMnNzRINBFn6e4Dpi/NUSuWqVUqjF+YYX9r
+      ByQJVdNYWVgiv3vAyOQ4Yxem2F3f5NLN6+xvbZMbGsCIGMcfnM1yqO0yPDlONBZjd33z9Gp9
+      zkVSaTrVCo38AfWDPcxEgm6nDYFPNJOlvL3JweIjxm++j6SoNI+OyExMokfj6LEoVr1OdnIa
+      JAkjFkeLxsiOT+I0G2ddtXOnbnW5NJAhICAIXjMGqJcrLN17QCQaJdOfo1oq4/ke8zdvoKgK
+      zWqNTK4Px7aPv81jUeKpJOMXZrjxgw/44l8+JwhANw0KewcU9g9ZvHsfz/OQZZn1J0/ZXl2j
+      1+2ddv3PpcD30SNRAs9n9PpNJFlBVhQkWQGgXS5hptLImkZu5gJDl6/SyB/SLOZRdQOn3aS0
+      sUarVKCeP0TRNMrbm1R2tul2Omdcu/PHf/7tv1ttIr18JvigXWe5doTveXTaHWRZJhKL4nve
+      8S9EkvBclyAIkBWFwPfpOl0UVUFRFBT1uEHpOg5dx0E3TCAAJCB4vs2g1+0SBBCNx74yJgib
+      L2eBfN/HtS20SARJkvE97zcvCgJ8zyUIQNG0F+MEz+3h2jaypiErKr7nIisqrm0hqxpB4BN4
+      HlokiqwoZ1fJc+LlWSBFkgg4DsKJXSBZUYgnEy+ef3lg//ZjZJmI+uqP0A0D3TBO3P7yv8Ix
+      WZbRo7HfPP+tA1Y+YR8rqoYS1156fvwaJZ545bXCV3kvrf557SxQtVhCM3TMaJRaqUxuaJBO
+      s4VtWWQH+qkUisfdHEMnmUkDYHU6yJJMr9ul6zhk+nM4lg3S8WyEoigEQYCm66dT0+8J3/No
+      FQvE+nL0HBsCMOJx2uUSejSKrGp0O216VodYXz/q8/1n1WuYiSSNwhGqbmDE43SqFeK5AZqF
+      I4x4AjORPOPanT+GquD5Pq7/mhag53SpFEoc7u4SiUYxTJN6pUp+d5/p+Tkcy2LjyTN832d0
+      epJet0c6l+XO//s5g6MjlPIFNF3j2gfvcf+XtxkYHcb3feyOzdX3b4oA/JZ2pUzX6lBbfPR8
+      8Aup4VHcrkNycBi7maeys0V2Yhqn1UTN9mE3Gyz877/n+t/+WyrbmwzMXqKZP8JuNWkW8jit
+      JgEw9cHHX221Q06WJD65MMxasY7jeicPgjVDx+31GJmcQNU05m+9w87aBqPTk4xMTbC3uc21
+      j95DkiWOdvfpG+zn6YMvkGSZSrGE53m06k1WF56AJFEplDja2afX7RKJxU76yFCLpNK0SgWy
+      45NEM33Esn20y0UGZi8Ry/bRbbcZu/Eu1Z0tnNbx6fzNO59iJJL0HBstEuHwyQJmKo3dqJMe
+      HadxdAAQ6jHWSfwg4MlhhSCAo0bn5BagWiyx8niRi9euoCgKt3/yU66+d5Plh49p1upIskzg
+      +/i+j2PZlPNFpubnSGYzlI7y1MsVVE1jbGaSrjNMOV+gb3AAJH7zWHhh//ED3G4Xr9ejXSoC
+      MDA3z+ad28T6cpiJJHajjmoYOK0mrXKJqQ9/yP7iI2RJPh4Mqxqbn90mms7Qsy2GrlzHqlVx
+      u1000zzjGp4fqixzfTSHBMiydPIs0Ndp1Rt02m0GRoa/67K+9b7JWqDKzhbp0XExk/MHet1a
+      oG/dOYynksRTYmB1WrITU2ddhLfaiR1Ez/Vo1cVZxNNi1Wts3/+M+vN++8t6toXTbmE3X13K
+      K/x+pvuSjKXjwGtaAMe22VpZ4+r7t1i695BEOsWj23e4dPMGuqFjdywuv/uOWGj1hjSLeUau
+      3kA1TPYXv0BRNeK5fqp7O/RNzRD4PrWDPTQzQuD7RNMZavu75GYuEkmlz7r43yuKLNHp9pgb
+      yOAHwdcvhy7nC0RiUYr7h4zNTHHx2mVqpTLLD7/Ac72ve6vwLXi9HrsP79Es5gk8j57doV0p
+      4bs92uUSTqtB4HtY9So926K6v0Nu5iKNvLh249vy/IChZIydapODevvkAMiyzP7mNs1anYPt
+      HZAgkU6ztvAEq2M9P0ssrqV/U1TDOF4G7fnUDnZxbQcjnsDtdiEIUHQDPRrH6/ZwWk2i6Syq
+      YaBFxOzOtxXTVSazCdIRg8ls4tvPAglvzkmzQNW9HTJjE2dUoreXuCLse0Ic/KfrxEGw7/s8
+      vH0Hz3WZu36VdquFoqjEEnES6dRpl/GtZzcbx2dykyn0SJT06Djl7U36L8xy9HSJ1PAo+adL
+      pEZGqR8eMDA7T3lrA8/tEcv20SoVSQ4OkZu+SHF9ldzM8b96NEozf8T4rffPuornhipL/Onc
+      GC2nx+fb+ZNbgNJRnnRfFjMawe31uP/Pt7n/y9t0HfEXDL4LxbUVBucuI8kyzVKB7fufkX/2
+      BLtRx0wkKa6vIikKTqv1/HJJGLn2Dr7r0rMsRq7eoFOtvvh5rVKRbqdNvC+H77lnWLPzR5Ik
+      ym2b9VKdK0PZkwNgmCbNWoNINEqr0eTSzRvM37px2mUNDVk7bojtRh1V15l49wOSg8PUD/cx
+      4gl6Vpvi2grJoRHG3nmX0sYaOw8+Z/L9H+C5PZZ/+o8kBocA6JuaYfOzT0mPjKIaYpD8OilT
+      JxszTw5AMpMm3Zeh3WwxMDrC0NgI/cNDxJLx0y5nKAzPX6O6t028r5/M2ASyopIZnwQgms5w
+      8ZM/5fKP/gaCgKNnTxicu4IkyxwtL9A3OcONv/t3SJJEq1REVhSGL18nls1RWHuG2+3SqVV/
+      RwnCw/N9VFnGDwI+XTsQs0Bn6evWAnmuS+B5qOLioTfija0FEk6Hoqog1vF/58QeFkJFAj6e
+      GSYIAh7tlcR5ACFcUhGdasfGcT1UWRIBEMLF6nn0xyPULIfJvqQIgBAujuuxdFghqqkokiTG
+      AEL4lNs25bYtukBCuLn+77geQBDediIAQqiJAAihJgIghJoIgBBqIgBCqIkACKEmAiCEmgiA
+      EGoiAEKoiQAIoSYCIISaCIAQaiIAQqiJAAihJgIghJoIgBBqIgBCqIkACKEmAiCEmgiAEGoi
+      AEKoiQAIoSYCIISaCIAQaiIAQqiJAAihJgIghJoIgBBqIgBCqH3l/gAyClog7kp4WvoiAaNx
+      cSPr06B7J2//SgBa3S6b9cZplEcAdss+j44qZ12MUJhLnHyPa9EFEkLttQFwLAvPdek5DpWj
+      PF/eT7tZrVItFHjp/tpfEQQBtWIRu9Oh5zjUS+XXvlb4jV6nTeD7tAtHtAtHBEFAEAR0W00A
+      nGbjtfvRtS2s6vF+tqplfM893lYpEQQBPasjfgevcWIA3F6Pez/9GdVCgaVf36F8eMjuygoA
+      T+/eo1YosLm0RGF3l/zODna7zdqjRwRBgN3pUC+WWPr1HZ589jk7z57RKJdPtVLfN3a1ws6n
+      PwMg8FyKT76AIMDvdtn6+T/iuy7rP/l7XKtDcekRPauDVSnRKRUAaOcPqG2uUl5ZonW4R3Hp
+      C9r5Q+o7G7TzB2z//Cf4bu8sq3hunRgAVdOYvnoVAEXTKO3vEwQBGwuLmNEoU1ev0qk3ePSL
+      f2bx9q9ZefCQsbk5tpef0rNtHNtmeHoa3TSYnL9Eq1Y71Up935iZLLGBYSRZxkilSYyO0zrc
+      o1MuEO0forr+lGhfP71Om267RXHxIYWFB8iKQnVjBT2eRFYUCCB7cR5JltETSUAi2j9EanLm
+      rKt4bp0YgK5ts/74MVtLT3B7PcxYDFmWmbl+jVa9zuNf/ors8DDxTIax2YuYsSjrXzxmYv4S
+      VrvDwfo6XdvCcz2efPY56YGB067X90q7mKe+vU5jf4f67hbpyQskRieI5gaIDQ5T294gNjSK
+      U68ev0GWiQ+PYWb6SE/PcnDvNgFgptIc3v81sqJycPc2SGBXy1Q3V6ltrp5pHc8rKXipc7hW
+      rXD7YO8syxMqYhbo9Mwl4vx0YeuV7WIWSAi1EwMQBAF7q2uUDw5xLIutJ08IfJ9WvU4QBBT3
+      9tlYWKRaOB6EdZpNntz5jFqxSOnggPLhIUEQUDnK4/Z6tBsNHMuia9tYrRZur4fzfJaoks+H
+      fobCd11KzxZxHZtOKU+nmAegnT98MRvULhxR3VihU3rp/3yf6uYqdq3yYpvvuvQ6bZxGLfT7
+      9Zs4MQC9bpdoIs72s6c8vXsPIxJl59kK28tPqRYKHG1tAaAoKtV8gb2VVWKpFNFEgoP1DXZX
+      VqkViix8+imKqrL26As2FhZQVI3AD9hefsrGwiLteoMvfvmr0P+inEaNxNAYpeUF6jub1Hc3
+      8d0ehaWHdIp5ep02zYMdXNtC1nTsepWDe7dp5Q/wHIfysyWceo2Du7dx7c5xn39r/ayr9b1w
+      YgA0Xaewu8vozAV00yA3OoLVbgNQKxSY//ADurbFzrNnZAYHGL80h6KqLN357HkQ4iSyGbJD
+      Q0iSRP/YKKqmo6gKkUQcq9nEDwLSA/30j46eaoXPIy0ao7L+lMzMHHosjh6L09jdPv6G31ih
+      XTik/8o7SJJMdf0ZB59/iu95OLUqVrkIssT+3U/xfY9OsUD56SLR3CCSJJ111c69EwPQKFco
+      7h/QrFUxolEe/vwXjExPoxsGQQBWq4XTsVAUhWq+QK1Yori3R25khEa5TKfRpFYscrS9zcHG
+      BolMhkQ2Q6fZxLEsVF0n1Zelmj9uTfbX1k673udKZXUZggDX6uA0GzjNBr7bY+pP/4ZIpg+v
+      6+D1uvSsNrKiMvOjv2Pg2rtEcwPImnq87S/+loHr7xIbHGb0w0+wygUC3z/rqp1732oWqF4q
+      oZsmkfjJ6yqEb+ebzAL1Om28roOZzp5Sqd5Or5sFUl996eulcrk3VR7hG9KiMbRo7KyL8dZ6
+      7TRo+fCIerlMp9l80f+H41ZAeLOsSomjR5/Tzh/idbtnXZxQeW0LcLi5iaKqZAb68X2f5e1t
+      Mv0DVI6OUDSVi++8w8bCIoMT4wxOTp5mmd86dr1K7vINCAJW/8//YOJf/4jmwQ5mKiuWMXzH
+      Tp4GdRwONzfZX1vD9zzcbo/+0VE6zSaJbJbJ+cvkd3bxfZ+t5aenXea3jt/rUVi4T7fZID09
+      h55I4jkOtS2xfOG7dmIL0KrX+fCv/4quZdN1bPSIydO79xifmyMSj6GZBpquIQHJTOaUi/z2
+      0WIxuq0Gge8jyTJWuUgQBBjJ9FkX7a33jWaBeo5Dp9kUg+A3TKwFOj1/0CyQZhikjK9eK+x7
+      HgGgKMqbKN9rBUGA73ko6reasPpe810XOUT1PUsn7mXf83j8q0+RFYWJy/MsfnqbeDpNPJ1m
+      /NIc+2vreK5LPJNma3GJmevXGZyc+FYfvPboCy7efOfF88LuLgfrG2QGB2mUy/ieR250lMzg
+      AOuPF7DbLSYuXaJ8eES70eDKDz7i3v/9Kf/q3/wda198wcDYGACxZIrC7i6xdIquZbH68BEf
+      /OWPMGPndyrRqpaprj/DSKbJzl6muv6MaP8gpeXHxEfGsUoF4sNj6LE4haVHpKcuYiTTtItH
+      ZGbmqKw+IXtxnsraM7yuQ6/dYvj9j5EVEaLf5cQ9VMnn6R8bpVYq4/V6xNNpZFVl/NIct//X
+      P/DRX/8VG4tLpAf66XW7+L7HZ//4k+MLOiIRjEiEZrVKo1wm3d9Pqj/H9pNlYqkUBAGjsxeP
+      F9B99jm6YTBxeZ6j7W2mrl6hfHiE2+sxPDNNu17ncHOLgfFx9tfWsDsWkiQdX3fQatE//uVB
+      n2T98QLv/+gvAKiXy7TqdWZv3aRVq+Of8zOizb0t+mav0NjfxqlXMZIpGvvbaNE4fq+H73n4
+      vS713S30WIJuq0Hp6QJTf/LXSJKE5zg0D/YwM314toVdq4hlEN/QibNAkXic8uERkXgMq9Wm
+      Va/Ts2100yQ3MkI0kQBAkiRmb90kPTBAMpslEouhGQaX3n+PVC7HyIULXHr/PTrNJpFEgtGL
+      F8kODTE+N4ckSRimidVuoxsGiqIiyTLNapUgCNh+skyq73jMEYnFmP/wA8qHBziWRa1QPD4b
+      /Xyl5MDYOMnsb86UarpO17ZQVJWA4NwvtlMME9excG2LTjGPnkzh2Ta1rTU6xSP6r9yglT/E
+      cyxqW2sEvk96epZW/vhKvcTIOMUnjzDTGYx0BjUSxXWcs67W98JrB8Hlw0OqhQKT8/O4vR6e
+      62FETGzLIpFOs/LgIcPTU+imiRGJcLS1harrROJxYskk7UYDggAjGqXX7VLa38eMxYgmEsSS
+      SZq1GuWDA8xojKGpSXzfZ+PxAtmhQTTTfPEZA+NjxNNp1h8vMDk/T9e2aNXrJDIZtpefksik
+      GZ+bw2q30QyDrm2jqipdx0FVNTYWF4kmEsxcv3ZW+/i1vhwEB0FAbWMFNRKl227SN3sFAKdZ
+      R9ENqhsrZC/Oo2g6TrOOrKioZgSnUScIPMx0H51inmj/ILWNFRTDJDkmzs287HWD4N/7ijDP
+      8yAI/qDBaafZJBKPv7a5dns9FFV9a5vz354FCgKfwPPFAPg78EbWAr3sTcz+fNmVeh1V0/7g
+      z/g+kSQZSRUX6Z0msbeFUBMBEEJNBEAINREAIdTEdIMQCnFDY7Y/9cp2EQAhFOxmh6Onu69s
+      FwEQQqHrepQbnVe2izGAEGqiBRBCRZYk/vzWBZ5sF4gYmmgBhHDxg4Cl7QKqKrN2UBYtgBA+
+      uqqgqTK6qogACOGiKjLpuInvB6iKLAIghIvr+TxaP3zxXIwBhFATLYAQKoos89H8GMmoyVGl
+      KVoAIVw832c7X6NUb6OpsgiAEC4RQ+P9uTHytRYgiS6QEC5O1+XO8g6u73N/dV8EQAgXPwie
+      f/sfE10gIVQkCbKJCOmYCYgACCEjSxK5ZIw/vjFDKmaKAAjh4vkBpq7ys0dr/PnNC2IMIIRL
+      Om7yzswwiixTb9siAEK41Fo2/+VnD188F10gIdRECyCEzqWxHNlElIXNI9ECCOESN3XiEYOV
+      /RIBogUQQkaSJDzPZ2YoS7VliRZACJem5YAEpq5SrLdFCyCEj7ggRhCeEwEQQk0EQAg1EQAh
+      1EQAhFD7yiyQpiikdON1rxXeMCsaMJqInnUxQiHWO/le0V8JgNXzOWh0T6VAAtSaHgfV9lkX
+      IxSir7nh4lcC0PU8Gl0RgNNStT0KLfusixEKo/GTb7UrxgBCqJ0YgCAI2Hz4AKvZoLi9xfLt
+      X+G0j5vqzS8e8uzXt3E6r95sAKBr26x89msOVp5R3N5m5bM7+J733dXgLTHfnyJt6i+evzfa
+      99rXmqrCB2M5LmQTTKRjfDCWI/J828W+JNmoweUTbgckvOrEpRC+56FoGnarTeXwgHg6Qy1/
+      xODMBXqWzYX3P2Tr0QMUVcN1eyT6cjRLRS68/yGqpjF14yYbD++jqBr9ExNUDvbJjU+cdt2+
+      N5KGxlAiSrvrUrO7ZCI6mYhB2tS51J9CliT2G236YyaPDiv0PJ+Foyo3hrJ4QcB2tcVgInK8
+      bThLoWWRMPTf/cHCyQFQVBXzy7u4B8fPm5UyXfu4vypJEr7vc/Rsmdz4JM1yiYsffMTh6grR
+      ZJKj9TUuvPcB2wtfHF+GHwSnVqHvo0v9KSKqwlQmTiZikDA0up7PbC5Ju+tiux7DiSiL+Soz
+      2QR1q8tMNsmDgxLXhzIEgCbL3Bzu4+FBCcfzCRD7/Js4MQA926a4tYVmGiRzOerFAhNXrxNN
+      pdh89ID1e3eZvHEDVTeQJInUwADr9+4y8977NMslfM+jsLVJsn+AwtYmF9//8LTr9b1yd69E
+      QtdQZIma3WU8FWO33mYiFWN+IE2hZbFRaWL3PFZLDQbjESQJJtJxSm2H6UyCnVqL/pjJRDoO
+      QMrUSZs6NVtManwdKQh+8/X8uFDix+vbZ1meUCnXPD7fLX7ta8RB/Gbcikf4xa8WX9kuZoHO
+      OXHwf7dO7AK53S4bD+6jaBqJbJbizjZTN2/RqdUwYnFkWaZdq2I1m9itFhPXrhNJJln9/A6K
+      qjE4Pc3WwmNGZi9ht5oEvo+q62RHRint7TJ8cZbD1RWGLs5ytLZKz3FoVSvMfvARmmme9j44
+      c/0xkwt9CfbrHZKGRqvrsl1r8cnkIJ/vFen5PjeGssR1lVLb4VmpTkRT+Gh8gF9sHPLBWD89
+      z+PxUYWrAxlKHQdVlpAliULbwuqJWbjXObEFUDSNqZu36FoWjXKJ2Y8+5nBlhfX791j7/A5O
+      p43dbtO1Lcx4HCMWo1UpYzeb+L5HfnODK5/8EdWDfTLDw9jtNtnRURb+6afokQgAnuvSqlSw
+      mk3GLl9B1XVct3eqlT8vSm2brWqLqK5SaNtENJWIqtDzfSbScfqjJp2uS0RTOWh2yEYNfD/A
+      6rlIQMJQkSWJpKET01XiusrlgTQDcVMc/L/DiQFwu13W799l7uOP8V0Pp91CUVUGpqcZu3wF
+      u90mEo8zef0Gib4+dp8sEs/2MfeDH6KqGnarhdPpEAQ+mnl8wGuGSTSdJjsyCsDA1DSLv/gZ
+      gxcusPHgHqOX5jFj8dOr+TkykoySMnSeFevYzw/Ymb4kpqowmY6Ti5ls1Vp8upXnw7F+Kh0H
+      x/PxgwAkuLNTJOB4Nimqq4ylYhRaFrqiIJ98AlR47uQuUK+LBOwvP2Fk7hL5zXUmrt3AajbR
+      DIP9p8sM3bpFZX+fWiHPxNVrtCoV6oUjFF1n7uMfsvXoEWOXL7O7tIjTbuN0OgxduIgkSTSK
+      RRK5HONXrxNJJAHYf/aM6Zs30YzwdYFUWSZl6owkogwnIhiawla1xVK+ykgySkI/vp/ttcEM
+      T4s1slEDRZIwVYWpdAJDlbF6Lg8P6uiKTERTUSSJnu8T1VRaXfesq3hu/V6zQHarhRkP57f1
+      m/RNZoF0RcYPAlxfzOv/IV43C/R7XRQvDv7T0/VOXsYrvBknBqBr2zz55S9QNI3Ln/wRqqbh
+      +z7VwwP6RsdOu4xvvfFUjLrdZSQZ5WmxftbFeStlExE+nht9ZfuJAQh8j55jE/g+R2ur7D99
+      QnpohMO1FW7+5d+wfu9zkrl+Zj/6wXde8DBIGBq3Rvr48bNdPpkcJG5oFFoWEU2l0LKYzaVo
+      d3tsVZu8N9rPP28eUu44Z13s75Vytcmnd5+9sv21XaCx+Su0qhVKO9sMz84Rz2QB6Fodkv0D
+      NMtf33cVvrme57NSqjORjqMpMjFdxfE8tqotxlIxNitNUqbOUCJKqWOTNnURgDfkxABohkmn
+      USeeyTJz6z22Fx4Ty2TpOg6RZBKr0WD2Q/Ht/6bsNzrYrkvaNNDkDiulOkOJKGOpKE+LNf5y
+      dpR/2S4c394nYnDQPHkpuvDtibVAZ+jrZoE0WabnHw+AVVkSs0B/oJumxj/95B6qIvPh1Sli
+      psbP7q68fi1Qu1Yjv7mB1+vRtSx6tn189rZaoZY/Yu/pMm63S3lvF8fqEAQB7VqVrmXh9Xo4
+      nTaB72O32wRBgN1u0bUtjtZWCXwxs/HbRpNRctHjP0jQHzNxfZ++5/P9E+k4miwxlowynYkT
+      11Vm+5IYyvGvL6qpL/7NRnQm0rEzq8d553o+qzsFmh2H+anBkwNgt9vsLC6gRyK0azUKW5uU
+      9nZo12pU9vc4WHmGGY/TqlRoVspsPrhPcXuL9ft38T2XnaUFdp8sgSRR2tnCajbYWVykWSoh
+      qyp7T5dPu97n2lwuhaEqyJKEKktkowZzuRTvjeboixrYPY9rgxnm+tM0nR4XskmaTo93ho+v
+      GrvUn0KVJa4OplFkmYxpMBiPnHGtzidTV7l1aYzlrTyqopwcAKtRp2909PgsbqfN3pMldpcW
+      8Xo9FFVj+OIc5Z0djtZXyY6MoZkm/ZNTmPEEZjxBp15ncPoCkiTRPznN/tNljGgUM56gcrDP
+      8MXZ0673uZYwNModh+tDWYYTUep2l2tDGdIRHdv1mMjEWSk32Ko2uTnSh6bIvDeao9Q5vkBp
+      q9Lk1kgfpbaN5wcMJSLYPXH29ySu57NzVCWXivF4bf/kACT7B8hvbuC7LoqqMfXOTabeuUVx
+      e5OB6Rma5RKO1SE3Mcn240eAxOHaKoXNDZrlEvFsH9FkkkaphGaaNEolcuPjrN37HEmSsNut
+      kz42tPbqLd4ZytLzfFKmTr5p8Q/LO6yXm1wdzCABSUOnP2bi+QHtrsuvdwukTZ1c1KD2/BzC
+      fqPDSDKK5XroqnLW1TqXXM/n6Xae9f0S8C0HwYWtTQampr/7UobEbw+CZUliJBFhryFmed60
+      LwfBABK8uGD0Wy2FEAf/d8sPAnHwf8dUReaDK5Nkk1GOyg1xgwwhXFzP56BYx+m6KIokLokU
+      wiVm6vzg2hQtyyEIxE3yhJDpOF1+/C9L+EHA6m5XBEAIlyCA5kvrqEQAhFAxdZX+TALX86g0
+      OmIMIITP9QvDGJrKrbkxEQAhXOyuS77S4rDUQFNfsxRCEN5m3vO/nVprWmIMIGBNBsYAAADQ
+      SURBVITPo9U9ABbWD0QLIISbaAGE0Ll2YZhULMLjNdECCCGTiBpoisLmYZkgCEQLIIRLAMiy
+      RH86TtTQRQsghEur4+D0XBJRg0K1KVoAIXwW1w9fPBYtgBBqIgBCqIkACKEmAiCEmgiAEGoi
+      AEKoiQAIoSYCIISaCIAQaiIAQqiJAAihJgIghJoIgBBqIgBCqIkACKEmAiCEmgiAEGoiAEKo
+      iQAIoSYCIISaCIAQal/5qxAJXWc6lTyrsoROTvV56Sadwnfogq5h35h5Zfv/B0uxNpQfRJX0
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
